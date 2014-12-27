@@ -3,8 +3,8 @@
 $menus = array();
 
 $tmp = array(
-	'modextra' => array(
-		'description' => 'modextra_menu_desc',
+	'sendex' => array(
+		'description' => 'sendex_menu_desc',
 		'action' => array(
 			'controller' => 'index',
 		),

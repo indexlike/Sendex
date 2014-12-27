@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-## modExtra
+## Sendex
 
-modExtra is a base Extra template that is useful when wanting to create a new
+Sendex is a base Extra template that is useful when wanting to create a new
 Extra for MODx Revolution. One can git archive from this repository to start
 with all the file structure for beginning MODx Extra development pre-setup.
 
@@ -9,11 +8,11 @@ with all the file structure for beginning MODx Extra development pre-setup.
 
 First, clone this repository somewhere on your development machine:
 
-`git clone http://github.com/splittingred/modExtra.git ./`
+`git clone http://github.com/splittingred/Sendex.git ./`
 
 Then, create the target directory where you want to create the file.
 
-Then, navigate to the directory modExtra is now in, and do this:
+Then, navigate to the directory Sendex is now in, and do this:
 
 `git archive HEAD | (cd /path/where/I/want/my/new/repo/ && tar -xvf -)`
 
@@ -25,8 +24,8 @@ there!
 
 ## Configuration
 
-Now, you'll want to change references to modExtra in the files in your
-new copied-from-modExtra repo to whatever name of your new Extra will be. Once
+Now, you'll want to change references to Sendex in the files in your
+new copied-from-Sendex repo to whatever name of your new Extra will be. Once
 you've done that, you can create some System Settings:
 
 - 'mynamespace.core_path' - Point to /path/to/my/extra/core/components/extra/
@@ -47,18 +46,12 @@ functionality. This Extra contains files and the setup to do the following:
 If you do not require all of this functionality, simply remove it and change the
 appropriate code.
 
-Also, you'll want to change all the references of 'modExtra' to whatever the
+Also, you'll want to change all the references of 'Sendex' to whatever the
 name of your component is.
 
 ## Copyright Information
 
-modExtra is distributed as GPL (as MODx Revolution is), but the copyright owner
-(Shaun McCormick) grants all users of modExtra the ability to modify, distribute
-and use modExtra in MODx development as they see fit, as long as attribution
+Sendex is distributed as GPL (as MODx Revolution is), but the copyright owner
+(Shaun McCormick) grants all users of Sendex the ability to modify, distribute
+and use Sendex in MODx development as they see fit, as long as attribution
 is given somewhere in the distributed source of all derivative works.
-=======
-Sendex
-======
-
-модуль
->>>>>>> origin/master
